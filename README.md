@@ -20,7 +20,7 @@ Add it as a dependency in your pom.
     <version>1.0.0</version>
 </dependency>
 ```
-Annotated an ArrayList of String to validat the length of every single element.
+Annotated an ArrayList of String to validate the length of every single element.
 
 ```
 @Size(max = 10) //THE ARRAY CAN CONTAIN MAX 10 ELEMENTS
