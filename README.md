@@ -6,14 +6,14 @@ Validators for IBM® .PCML-Files (Program Call Markup Language) pcml2java plugin
 
 Supports ArrayList of String each elements size validation.
 
-Plugin is available in jitpack repository.
-Latest build
-[![](https://jitpack.io/v/fabtesta/pcml2java-validator.svg)](https://jitpack.io/#fabtesta/pcml2java-validator)
+Plugin is available in jitpack repository.  
+Latest build [![](https://jitpack.io/v/fabtesta/pcml2java-validator.svg)](https://jitpack.io/#fabtesta/pcml2java-validator)  
+Travis status [![Build Status](https://travis-ci.org/fabtesta/pcml2java-validator.svg?branch=master)](https://travis-ci.org/fabtesta/pcml2java-validator)
 
 ## Basic Usage
-You could use this library indipendently from parent project pcml2java-maven-plugin.
-Add jitpack repository.
-Add it as a dependency in your pom.
+You could use this library indipendently from parent project pcml2java-maven-plugin.  
+1) Add jitpack repository.  
+2) Add it as a dependency in your pom.
 ```
 <repository>
     <id>jitpack.io</id>
@@ -35,5 +35,3 @@ Annotated an ArrayList of String to validate the length of every single element.
 @ArrayOfStringsElementSize(singleElementSize =  2) //EVERY STRING IN THE ARRAY MUST BE LTE OF 2
 private ArrayList<String> listOfStrings;
 ```
-
-
