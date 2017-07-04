@@ -9,7 +9,7 @@ Latest build [![](https://jitpack.io/v/fabtesta/pcml2java-validator.svg)](https:
 Travis status [![Build Status](https://travis-ci.org/fabtesta/pcml2java-validator.svg?branch=master)](https://travis-ci.org/fabtesta/pcml2java-validator)
 
 ## Features
-From version 1.0.0 supports ArrayList of String each elements size validation.
+From version 1.1.0 supports ArrayList of String each elements size validation.
 
 ## Basic Usage
 You could use this library indipendently from parent project pcml2java-maven-plugin.  
@@ -25,8 +25,8 @@ You could use this library indipendently from parent project pcml2java-maven-plu
 
 <dependency>
     <groupId>com.github.fabtesta</groupId>
-    <artifactId>validator</artifactId>
-    <version>1.0.0</version>
+    <artifactId>pcml2java-validator</artifactId>
+    <version>1.1.0</version>
 </dependency>
 ```
 
