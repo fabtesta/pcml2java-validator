@@ -12,8 +12,16 @@ Latest build
 
 ## Basic Usage
 You could use this library indipendently from parent project pcml2java-maven-plugin.
+Add jitpack repository.
 Add it as a dependency in your pom.
 ```
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
+
+....
+
 <dependency>
     <groupId>com.github.fabtesta</groupId>
     <artifactId>validator</artifactId>
